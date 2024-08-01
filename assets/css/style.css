@@ -44,8 +44,8 @@
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Manrope', sans-serif;
-  --tp-ff-heading: 'Manrope', sans-serif;
+  --tp-ff-body: "Manrope", sans-serif;
+  --tp-ff-heading: "Manrope", sans-serif;
   --tp-ff-fontawesome: Font Awesome 6 Pro;
   /**
   @color declaration
@@ -65,7 +65,12 @@
 }
 
 @media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
     max-width: 1200px;
   }
 }
@@ -91,7 +96,8 @@ body {
   overflow-x: hidden;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -263,7 +269,7 @@ textarea:-ms-input-placeholder {
   color: rgb(116, 116, 116);
 }
 
-input[type=color] {
+input[type="color"] {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -371,7 +377,8 @@ input[type=color] {
 .gx-50 {
   --bs-gutter-x: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 767px) {
   .gx-50 {
     --bs-gutter-x: 30px;
   }
@@ -389,7 +396,12 @@ input[type=color] {
   --bs-gutter-x: 25px;
 }
 
-input[type=text], input[type=email], input[type=tel], input[type=number], input[type=password], input[type=url] {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="url"] {
   outline: none;
   background-color: #fff;
   height: 60px;
@@ -1104,7 +1116,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 }
 /* right bounce */
 @-webkit-keyframes bounceRight {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
@@ -1118,7 +1134,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   }
 }
 @-moz-keyframes bounceRight {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
@@ -1132,7 +1152,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   }
 }
 @keyframes bounceRight {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
@@ -1147,7 +1171,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 }
 /* /right bounce */
 @keyframes icon-bounce {
-  0%, 100%, 20%, 50%, 80% {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -1500,7 +1528,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-top: 0;
   }
 }
-@media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tpoffcanvas__logo {
     padding-top: 0;
   }
@@ -1639,7 +1668,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   bottom: -7%;
   left: -2%;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-breadcrumb__shape-1 {
     display: none;
     visibility: hidden;
@@ -1650,7 +1682,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   bottom: 20px;
   left: 0%;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-breadcrumb__shape-2 {
     display: none;
     visibility: hidden;
@@ -1777,7 +1812,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   margin-bottom: 17px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-section-subtitle {
     font-size: 14px;
   }
@@ -1823,7 +1859,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   margin-bottom: 17px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-section-subtitle-2 {
     font-size: 14px;
   }
@@ -1857,7 +1894,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   margin-bottom: 17px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-section-subtitle-3 {
     font-size: 14px;
   }
@@ -1940,7 +1978,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   margin-bottom: 17px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-slider-subtitle {
     font-size: 14px;
   }
@@ -2025,7 +2064,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-slider-2-subtitle {
     font-size: 16px;
   }
@@ -2116,7 +2156,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider-3-subtitle {
     font-size: 14px;
   }
@@ -2529,7 +2571,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -o-transform: translateY(-2px);
   transform: translateY(-2px);
   font-size: 18px;
-  color: #7F8387;
+  color: #7f8387;
   font-family: "Font Awesome 5 Pro";
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -2538,13 +2580,19 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 22px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .tp-main-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn i {
   transition: all 0.3s ease-in-out;
   margin-left: 2px;
 }
-.tp-main-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -2562,12 +2610,21 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-menu-mobile ul li.has-dropdown > a.expanded {
   color: var(--tp-theme-1);
 }
-.tp-main-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened {
   background-color: var(--tp-theme-1);
   border-color: var(--tp-theme-1);
   color: var(--tp-common-white);
 }
-.tp-main-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   color: var(--tp-common-white);
 }
 .tp-main-menu-mobile ul li.has-dropdown:hover > a::after {
@@ -2606,7 +2663,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-menu-mobile ul li > a .menu-text {
   font-size: 16px;
   line-height: 11px;
-  border-bottom: 1px solid #EAEBED;
+  border-bottom: 1px solid #eaebed;
   width: 82%;
   display: inline-block;
   padding: 19px 0 17px;
@@ -2661,7 +2718,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   opacity: 1;
   top: 0;
 }
-.tp-main-menu-mobile ul li .mega-menu, .tp-main-menu-mobile ul li .submenu {
+.tp-main-menu-mobile ul li .mega-menu,
+.tp-main-menu-mobile ul li .submenu {
   position: static;
   min-width: 100%;
   padding: 0;
@@ -2670,24 +2728,33 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   opacity: 1;
   display: none;
 }
-.tp-main-menu-mobile ul li .mega-menu li, .tp-main-menu-mobile ul li .submenu li {
+.tp-main-menu-mobile ul li .mega-menu li,
+.tp-main-menu-mobile ul li .submenu li {
   float: none;
   display: block;
   width: 100%;
   padding: 0;
 }
-.tp-main-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn, .tp-main-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn {
+.tp-main-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn,
+.tp-main-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn {
   color: var(--tp-theme-1);
 }
-.tp-main-menu-mobile .tp-main-menu-content ul li:not(:last-child) .home-menu-title a {
+.tp-main-menu-mobile
+  .tp-main-menu-content
+  ul
+  li:not(:last-child)
+  .home-menu-title
+  a {
   border-bottom: none;
 }
-.tp-main-menu-mobile * ul, .tp-main-menu-mobile * li {
+.tp-main-menu-mobile * ul,
+.tp-main-menu-mobile * li {
   transition: none !important;
 }
 
 /** HEADER AREA GOES HERE ***/
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-top__hide {
     display: none;
   }
@@ -2781,7 +2848,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   align-items: center;
   justify-content: center;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1800px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1600px) and (max-width: 1800px),
+  only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-header__logo {
     padding: 15px 50px;
   }
@@ -2850,7 +2918,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-header__plr {
   padding-left: 373px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1800px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1600px) and (max-width: 1800px),
+  only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-header__plr {
     padding-left: 314px;
   }
@@ -3040,7 +3109,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-header__right-action ul li {
   display: inline-block;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header__right-action ul li:last-child {
     display: none;
     visibility: hidden;
@@ -3179,7 +3251,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     margin-top: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-2__logo {
     padding: 30px 0;
   }
@@ -3225,7 +3299,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 21px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-2__icon-box button {
     font-size: 20px;
   }
@@ -3248,7 +3323,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 21px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-2__icon-box a {
     font-size: 20px;
   }
@@ -3438,7 +3514,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-header-top-3__right-box ul li.location {
   padding-right: 10px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-top-3__right-box ul li.location {
     display: none;
   }
@@ -3456,7 +3533,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   transform: translateY(3px);
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-3__logo {
     padding: 30px 0;
   }
@@ -3601,7 +3680,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 400;
   margin-right: 28px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-3__icon-box button {
     font-size: 20px;
   }
@@ -3614,7 +3696,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 400;
   margin-right: 25px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-header-3__icon-box a {
     font-size: 20px;
   }
@@ -3760,7 +3845,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -o-transform: translateY(-2px);
   transform: translateY(-2px);
   font-size: 18px;
-  color: #7F8387;
+  color: #7f8387;
   font-family: "Font Awesome 5 Pro";
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -3769,13 +3854,19 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 22px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .tp-main-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn i {
   transition: all 0.3s ease-in-out;
   margin-left: 2px;
 }
-.tp-main-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -3793,12 +3884,21 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-menu-mobile ul li.has-dropdown > a.expanded {
   color: var(--tp-common-orange);
 }
-.tp-main-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened {
   background-color: var(--tp-common-orange);
   border-color: var(--tp-common-orange);
   color: var(--tp-common-white);
 }
-.tp-main-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i {
+.tp-main-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   color: var(--tp-common-white);
 }
 .tp-main-menu-mobile ul li.has-dropdown:hover > a::after {
@@ -3837,7 +3937,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-menu-mobile ul li > a .menu-text {
   font-size: 16px;
   line-height: 11px;
-  border-bottom: 1px solid #EAEBED;
+  border-bottom: 1px solid #eaebed;
   width: 82%;
   display: inline-block;
   padding: 19px 0 17px;
@@ -3892,7 +3992,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   opacity: 1;
   top: 0;
 }
-.tp-main-menu-mobile ul li .mega-menu, .tp-main-menu-mobile ul li .submenu {
+.tp-main-menu-mobile ul li .mega-menu,
+.tp-main-menu-mobile ul li .submenu {
   position: static;
   min-width: 100%;
   padding: 0;
@@ -3901,19 +4002,27 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   opacity: 1;
   display: none;
 }
-.tp-main-menu-mobile ul li .mega-menu li, .tp-main-menu-mobile ul li .submenu li {
+.tp-main-menu-mobile ul li .mega-menu li,
+.tp-main-menu-mobile ul li .submenu li {
   float: none;
   display: block;
   width: 100%;
   padding: 0;
 }
-.tp-main-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn, .tp-main-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn {
+.tp-main-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn,
+.tp-main-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn {
   color: var(--tp-theme-1);
 }
-.tp-main-menu-mobile .tp-main-menu-content ul li:not(:last-child) .home-menu-title a {
+.tp-main-menu-mobile
+  .tp-main-menu-content
+  ul
+  li:not(:last-child)
+  .home-menu-title
+  a {
   border-bottom: none;
 }
-.tp-main-menu-mobile * ul, .tp-main-menu-mobile * li {
+.tp-main-menu-mobile * ul,
+.tp-main-menu-mobile * li {
   transition: none !important;
 }
 
@@ -3946,7 +4055,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     left: 34%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider__shape {
     display: none;
     visibility: hidden;
@@ -3957,7 +4067,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-position: right;
   min-height: 820px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-slider__bg {
     background-position: center;
   }
@@ -4000,7 +4111,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     right: -25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider__shape-3 {
     display: none;
     visibility: hidden;
@@ -4017,7 +4131,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     right: -1%;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider__shape-4 {
     display: none;
     visibility: hidden;
@@ -4036,13 +4153,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     left: auto;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-slider__arrow-box {
     right: 80px;
     left: auto;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider__arrow-box {
     display: none;
     visibility: hidden;
@@ -4141,7 +4260,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-top: 245px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider-2__main-thumb {
     transform: translateX(0px);
     padding-top: 0;
@@ -4151,7 +4271,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-slider-2__main-thumb img {
   max-width: inherit;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider-2__main-thumb img {
     max-width: 100%;
   }
@@ -4251,7 +4373,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-theme-1);
   margin-right: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-slider-2__thumb-text span {
     font-size: 16px;
   }
@@ -4292,7 +4415,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     height: 752px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-slider-2__grey-bg {
     display: none;
     visibility: hidden;
@@ -4486,7 +4610,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     left: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-slider-3__arrow-box button.test-prev {
     left: 20px;
   }
@@ -4525,7 +4650,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     right: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-slider-3__arrow-box button.test-next {
     right: 20px;
   }
@@ -4561,7 +4687,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
   transition: all 3s;
 }
 
@@ -4575,7 +4702,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 1000ms ease, -webkit-transform 1000ms ease;
   transition: opacity 1000ms ease, -webkit-transform 2000ms ease;
   transition: transform 1000ms ease, opacity 1000ms ease;
-  transition: transform 1000ms ease, opacity 1000ms ease, -webkit-transform 1000ms ease;
+  transition: transform 1000ms ease, opacity 1000ms ease,
+    -webkit-transform 1000ms ease;
 }
 
 .tp-slider__shape {
@@ -4588,7 +4716,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
 }
 
 .tp-slider__shape-4 {
@@ -4601,7 +4730,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 3000ms ease, -webkit-transform 3000ms ease;
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
 }
 
 .tp-slider__shape-3 {
@@ -4614,7 +4744,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 3000ms ease, -webkit-transform 3000ms ease;
   transition: opacity 3000ms ease, -webkit-transform 3000ms ease;
   transition: transform 3000ms ease, opacity 3000ms ease;
-  transition: transform 3000ms ease, opacity 3000ms ease, -webkit-transform 3000ms ease;
+  transition: transform 3000ms ease, opacity 3000ms ease,
+    -webkit-transform 3000ms ease;
 }
 
 .swiper-slide-active .tp-slider-subtitle,
@@ -4660,7 +4791,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
   transition: all 3s;
 }
 
@@ -4674,7 +4806,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   -webkit-transition: opacity 1000ms ease, -webkit-transform 1000ms ease;
   transition: opacity 1000ms ease, -webkit-transform 2000ms ease;
   transition: transform 1000ms ease, opacity 1000ms ease;
-  transition: transform 1000ms ease, opacity 1000ms ease, -webkit-transform 1000ms ease;
+  transition: transform 1000ms ease, opacity 1000ms ease,
+    -webkit-transform 1000ms ease;
 }
 
 .swiper-slide-active .tp-slider-3-subtitle,
@@ -4917,7 +5050,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   transition: all 0.3s linear;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-feature-2__title-sm {
     font-size: 17px;
   }
@@ -4955,7 +5090,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about__space {
   padding: 115px 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__left-side {
     margin-bottom: 90px;
   }
@@ -4999,7 +5135,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__text p {
     font-size: 14px;
   }
@@ -5021,7 +5158,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 30px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__list-content p {
     font-size: 14px;
   }
@@ -5043,7 +5182,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 18px;
   padding-bottom: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-progress-item h4 {
     font-size: 15px;
   }
@@ -5089,7 +5230,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__author-name {
     font-size: 17px;
   }
@@ -5097,7 +5240,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about__author-info span {
   font-size: 14px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__author-info span {
     font-size: 13px;
   }
@@ -5110,13 +5255,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     max-width: 91%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__main-thumb img {
     width: 100%;
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__main-thumb {
     margin-left: 0;
     margin-bottom: 0;
@@ -5132,7 +5279,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     left: -120px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__thumb-sm {
     position: static;
   }
@@ -5142,7 +5290,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     max-width: 77%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__thumb-sm img {
     width: 100%;
   }
@@ -5175,7 +5324,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   position: relative;
   z-index: 2;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-about__icon a {
     font-size: 19px;
   }
@@ -5219,7 +5369,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about-2__right-box {
   padding-left: 75px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__right-box {
     padding-left: 60px;
   }
@@ -5280,7 +5432,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about-2__wraper {
   padding-right: 45px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-about-2__wraper {
     padding-right: 0;
   }
@@ -5311,7 +5465,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 18px;
   padding-bottom: 3px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__title-sm {
     font-size: 16px;
   }
@@ -5320,7 +5476,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 30px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__list-content p {
     font-size: 14px;
   }
@@ -5337,7 +5495,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-right: 95px;
   line-height: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__btn {
     padding-right: 80px;
   }
@@ -5357,7 +5517,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__author-name {
     font-size: 17px;
   }
@@ -5401,7 +5563,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 1px solid var(--tp-common-orange);
   animation: borderanimate2 2s linear infinite;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-about-2__icon a {
     font-size: 19px;
   }
@@ -5432,7 +5595,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-right: 15px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__fact-number {
     font-size: 40px;
   }
@@ -5441,7 +5606,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 16px;
   color: var(--tp-common-orange);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__fact span {
     font-size: 13px;
   }
@@ -5562,7 +5729,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     top: 38%;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-2__text-box {
     opacity: 0;
     visibility: hidden;
@@ -5589,7 +5760,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-left: -80px;
   margin-bottom: 75px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-about-3__main-thumb {
     margin-left: 0;
   }
@@ -5610,7 +5782,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about-3__main-thumb img {
   max-width: inherit;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-about-3__main-thumb img {
     max-width: 100%;
   }
@@ -5682,7 +5855,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     max-width: 80%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__circle-box img {
     max-width: 100%;
   }
@@ -5729,7 +5903,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-left: 44px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__left-side {
     padding-left: 0px;
   }
@@ -5769,7 +5944,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__text p {
     font-size: 14px;
   }
@@ -5805,7 +5981,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__text-2 p {
     font-size: 15px;
   }
@@ -5837,7 +6014,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 30px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__list-content p {
     font-size: 14px;
   }
@@ -5864,7 +6043,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 18px;
   padding-bottom: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__progress-item h4 {
     font-size: 15px;
   }
@@ -5893,7 +6074,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about-3__pb {
   padding-bottom: 120px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-3__pb {
     padding-bottom: 70px;
   }
@@ -5903,7 +6085,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-top: 115px;
   padding-bottom: 90px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-4__space {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -5981,7 +6164,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-color: var(--tp-theme-2);
   padding: 35px 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-4__bg-text {
     padding: 23px 35px;
   }
@@ -6001,7 +6187,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-right: 0px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-4__left-side {
     padding-left: 0px;
     padding-right: 0px;
@@ -6077,7 +6264,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 30px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-4__list-content p {
     font-size: 14px;
   }
@@ -6094,7 +6283,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 18px;
   padding-bottom: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-4__progress-item h4 {
     font-size: 15px;
   }
@@ -6181,7 +6372,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-left: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__right-box {
     padding-left: 0px;
   }
@@ -6192,7 +6384,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about__right-box .tp-about-progress-item {
   padding-bottom: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about__right-box .tp-about__text p {
     padding-right: 0px;
   }
@@ -6220,7 +6414,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-about-us__main-thumb {
   margin-bottom: 86px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-us__main-thumb {
     margin-bottom: 50px;
   }
@@ -6234,7 +6429,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   left: 50px;
   bottom: -85px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-us__main-thumb::after {
     display: none;
     visibility: hidden;
@@ -6245,7 +6441,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     max-width: 90%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-us__main-thumb img {
     width: 100%;
     margin-bottom: 30px;
@@ -6261,7 +6458,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     right: -140px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-us__thumb-sm {
     position: static;
   }
@@ -6292,7 +6490,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 4px solid var(--tp-common-orange);
   z-index: -1;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-about-us__thumb-border {
     display: none;
     visibility: hidden;
@@ -6307,7 +6506,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-bottom: 90px;
   position: relative;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate__bg {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -6328,7 +6528,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     height: 50.7%;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-donate__bg::after {
     height: 50.5%;
   }
@@ -6427,7 +6628,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate__text p {
     font-size: 14px;
   }
@@ -6448,7 +6651,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 22px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate__title {
     font-size: 20px;
   }
@@ -6614,13 +6818,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-left: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__right-text {
     padding-left: 0px;
     padding-bottom: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-donate-2__right-text p {
     font-size: 14px;
   }
@@ -6633,12 +6839,16 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-donate-2__pl {
   transform: translateX(25px);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__pl {
     transform: translateX(0px);
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__item {
     flex-wrap: wrap;
   }
@@ -6663,7 +6873,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   overflow: hidden;
   height: 100%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__thumb {
     width: 100%;
   }
@@ -6675,9 +6887,21 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   transition: all 500ms ease;
 }
 .tp-donate-2__thumb::before {
-  background-image: -moz-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   content: "";
   position: absolute;
   left: 0px;
@@ -6728,7 +6952,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-color: var(--tp-common-white);
   padding-right: 10px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-donate-2__content {
     width: 100%;
     padding-top: 30px;
@@ -6750,7 +6975,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__text p {
     font-size: 14px;
   }
@@ -6774,7 +7001,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2__title {
     font-size: 23px;
   }
@@ -6834,7 +7062,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   height: 100%;
   position: absolute;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate-2-progress-item .progress-goals::after {
     right: 50%;
   }
@@ -6858,7 +7088,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-donation-details__progress {
   width: 65%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donation-details__progress {
     width: 100%;
   }
@@ -6978,7 +7210,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 60px;
   position: relative;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donation-details__notice-box {
     padding: 29px 35px;
   }
@@ -6988,7 +7222,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donation-details__notice-box span {
     font-size: 14px;
   }
@@ -7028,7 +7263,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-donate__method span label:hover {
   cursor: pointer;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate__method span {
     display: block;
     margin-bottom: 15px;
@@ -7045,7 +7281,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 700;
   transition: 0.3s;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-donate__button-box button {
     margin-bottom: 30px;
     margin-right: 16px;
@@ -7072,7 +7309,12 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-gallery__plr {
   padding: 0 125px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1800px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1800px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-gallery__plr {
     padding: 0;
   }
@@ -7080,7 +7322,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-gallery__thumb {
   overflow: hidden;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-gallery__thumb {
     margin-bottom: 30px;
   }
@@ -7196,7 +7440,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding: 0 40px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-gallery-3__space {
     padding: 0;
   }
@@ -7238,10 +7485,13 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   transform-origin: top center;
   -webkit-transform: scaleY(0) translateZ(100px);
   transform: scaleY(0) translateZ(100px);
-  -webkit-transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 700ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, -webkit-transform 700ms ease;
+  -webkit-transition: opacity 500ms ease, visibility 500ms ease,
+    -webkit-transform 700ms ease;
+  transition: opacity 500ms ease, visibility 500ms ease,
+    -webkit-transform 700ms ease;
   transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease, -webkit-transform 700ms ease;
+  transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease,
+    -webkit-transform 700ms ease;
 }
 .tp-gallery-3__icon {
   position: absolute;
@@ -7462,7 +7712,12 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   transition-duration: 0.5s;
   transition-property: all;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1800px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1800px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-mission-2__text p br {
     display: none;
   }
@@ -7531,7 +7786,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-cta__bg {
     background-position: right;
   }
@@ -7556,7 +7815,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 26px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-cta__title-sm {
     font-size: 22px;
   }
@@ -7609,7 +7869,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-color: #022b29;
   background-attachment: fixed;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-cta-2__bg {
     padding-bottom: 100px;
     padding-top: 100px;
@@ -7633,7 +7894,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-cta-2__subtitle {
     font-size: 14px;
   }
@@ -7725,7 +7987,11 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-cta-2__pt {
   padding-top: 50px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-cta-2__pt {
     padding-top: 0;
   }
@@ -7995,7 +8261,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 40px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-event-2__left-text p {
     font-size: 14px;
   }
@@ -8112,7 +8379,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-theme-1);
   margin-right: 7px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-2__meta span i {
     font-size: 14px;
   }
@@ -8123,7 +8392,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     margin-right: 1px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-2__left-side {
     padding-bottom: 50px;
   }
@@ -8154,7 +8424,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 36px;
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-event-details__title {
     font-size: 30px;
   }
@@ -8167,19 +8439,23 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-event-details__left-box {
   padding-right: 30px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-event-details__left-box {
     padding-right: 0;
     padding-bottom: 50px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__left-box {
     padding-right: 0;
     padding-bottom: 50px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-event-details__text p {
     font-size: 15px;
   }
@@ -8200,7 +8476,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-common-orange);
   padding-right: 30px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__icon span {
     font-size: 50px;
   }
@@ -8219,7 +8498,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 30px;
   font-size: 14px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__item-text span {
     font-size: 15px;
   }
@@ -8254,7 +8535,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-event-details__author-info {
   padding: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__author-info {
     padding: 50px 20px;
   }
@@ -8290,7 +8573,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-theme-1);
   font-weight: 800;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__contact-text b {
     font-size: 16px;
   }
@@ -8300,7 +8585,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding: 50px;
   position: relative;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__contact-box {
     padding: 50px 20px;
   }
@@ -8329,7 +8616,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 34px;
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__item-2-title br {
     display: none;
   }
@@ -8387,12 +8675,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-event-details__left-side {
   padding-right: 30px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-event-details__left-side {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-event-details__left-side {
     padding-right: 0;
     padding-bottom: 50px;
@@ -8446,7 +8737,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   height: 100%;
   width: 100%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-funfact-2__icon span {
     height: 76px;
     width: 76px;
@@ -8461,12 +8754,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-funfact-2__title-sm {
     font-size: 44px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-funfact-2__title-sm {
     font-size: 35px;
   }
@@ -8478,7 +8774,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 500;
   color: #8b9e9e;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-funfact-2__text span {
     font-size: 14px;
   }
@@ -8528,7 +8826,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-providing__content p {
   padding-bottom: 30px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 767px) {
   .tp-providing__content p {
     font-size: 14px;
   }
@@ -8544,7 +8844,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   top: 0;
   z-index: -1;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-providing__grey-bg {
     width: 100%;
   }
@@ -8560,7 +8862,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-right: 20px;
   transition: 0.3s;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-providing__tab nav button {
     padding: 0 40px;
     font-size: 16px;
@@ -8678,7 +8981,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   transform: translateY(12px);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-providing__bg-text span {
     font-size: 55px;
     margin-right: 34px;
@@ -8696,7 +9001,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   line-height: 34px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-providing__title-2 {
     font-size: 20px;
   }
@@ -8859,7 +9167,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-service-3__content p {
     font-size: 14px;
   }
@@ -8979,10 +9289,30 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   left: 0;
   height: 75%;
   width: 100%;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.961) 20%, rgba(254, 126, 76, 0.633) 100%, rgba(255, 255, 255, 0.957) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.961) 20%, rgba(254, 126, 76, 0.633) 100%, rgba(255, 255, 255, 0.957) 100%);
-  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0.961) 20%, rgba(254, 126, 76, 0.633) 100%, rgba(255, 255, 255, 0.957) 100%);
-  background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0.961) 20%, rgba(254, 126, 76, 0.633) 100%, rgba(255, 255, 255, 0.957) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.961) 20%,
+    rgba(254, 126, 76, 0.633) 100%,
+    rgba(255, 255, 255, 0.957) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.961) 20%,
+    rgba(254, 126, 76, 0.633) 100%,
+    rgba(255, 255, 255, 0.957) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.961) 20%,
+    rgba(254, 126, 76, 0.633) 100%,
+    rgba(255, 255, 255, 0.957) 100%
+  );
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.961) 20%,
+    rgba(254, 126, 76, 0.633) 100%,
+    rgba(255, 255, 255, 0.957) 100%
+  );
   z-index: -2;
 }
 .tp-team-2__wrapper::before {
@@ -9091,7 +9421,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   opacity: 1;
   transform: scaleY(1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-2__social-box a {
     font-size: 14px;
     height: 35px;
@@ -9101,7 +9433,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-details__section-title p {
     font-size: 15px;
   }
@@ -9127,7 +9462,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-team-details__thumb {
   position: relative;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-details__thumb {
     margin-bottom: 50px;
   }
@@ -9147,7 +9483,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     width: 67%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-details__thumb::after {
     width: 100%;
     height: 105%;
@@ -9157,7 +9494,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   max-width: inherit;
   margin-left: 71px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-team-details__thumb img {
     max-width: 100%;
     margin-left: 60px;
@@ -9237,12 +9575,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-team-details__left-box {
   padding-left: 85px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-details__left-box {
     padding-left: 48px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-team-details__left-box {
     padding-left: 0px;
   }
@@ -9251,12 +9592,16 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-register__left-box {
   padding-right: 20px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1800px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1600px) and (max-width: 1800px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-register__left-box {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-register__left-box {
     padding-right: 0;
     padding-bottom: 60px;
@@ -9265,7 +9610,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-register__list {
   padding-bottom: 55px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-register__list {
     padding-bottom: 35px;
   }
@@ -9362,12 +9708,14 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     max-width: 50%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-register__thumb img {
     width: 49%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-register__text p {
     font-size: 15px;
   }
@@ -9414,9 +9762,21 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   visibility: visible;
 }
 .tp-blog__item::before {
-  background-image: -moz-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -webkit-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
-  background-image: -ms-linear-gradient(90deg, rgb(30, 55, 55) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(30, 55, 55) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
   content: "";
   position: absolute;
   left: 0px;
@@ -9456,7 +9816,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: #d7e3e3;
   display: inline-block;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-blog__img-text span {
     font-size: 12px;
   }
@@ -9467,7 +9829,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   transform: translateY(3px);
   display: inline-block;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-blog__img-text span i {
     font-size: 12px;
   }
@@ -9496,7 +9860,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-blog__title-sm {
     padding-bottom: 0;
     font-size: 22px;
@@ -9527,7 +9892,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-bottom: 27px;
   display: block;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-blog__content span {
     font-size: 12px;
     padding-bottom: 20px;
@@ -9647,7 +10013,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-common-orange);
   transition: all 500ms ease;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-blog-2__title-sm {
     font-size: 20px;
   }
@@ -9731,7 +10099,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   visibility: visible;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__wrapper {
     margin-bottom: 50px;
   }
@@ -9785,7 +10154,14 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: #fff;
   letter-spacing: 0.135em;
   background: var(--tp-theme-1);
-  clip-path: polygon(0px 0px, 100% 0px, 92.7% 53.45%, 100% 100%, 0px 100%, 0px 50%);
+  clip-path: polygon(
+    0px 0px,
+    100% 0px,
+    92.7% 53.45%,
+    100% 100%,
+    0px 100%,
+    0px 50%
+  );
   width: 130px;
 }
 .postbox__content {
@@ -9807,7 +10183,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-theme-1);
   margin-bottom: 22px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .postbox__title {
     font-size: 30px;
   }
@@ -9859,7 +10238,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   color: var(--tp-theme-1);
   margin-bottom: 25px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__blockquote blockquote p {
     font-size: 16px;
   }
@@ -9888,7 +10269,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox-details-desc-thumb-caption {
   font-size: 18px;
   font-weight: 500;
-  color: #807A7A;
+  color: #807a7a;
   font-style: italic;
   text-align: center;
   display: block;
@@ -9898,7 +10279,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox__list {
   margin-bottom: 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__list {
     margin-bottom: 30px;
   }
@@ -9922,7 +10305,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   position: relative;
   padding-left: 27px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__list-content ul li {
     margin-bottom: 15px;
     font-size: 14px;
@@ -9938,7 +10323,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox__details-share-wrapper {
   padding-top: 20px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #F7F7F7;
+  border-bottom: 1px solid #f7f7f7;
 }
 .postbox__details-share span {
   font-size: 22px;
@@ -9957,7 +10342,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background-color: #F2F6F7;
+  background-color: #f2f6f7;
   color: var(--tp-theme-1);
   margin-right: 10px;
   border-radius: 50%;
@@ -10008,7 +10393,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   content: "";
   top: 1px;
   right: -10px;
-  border: 1px solid #E8F2F9;
+  border: 1px solid #e8f2f9;
   height: 28px;
   width: 28px;
   display: inline-block;
@@ -10021,7 +10406,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 400;
   margin-bottom: 28px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__text p {
     font-size: 14px;
   }
@@ -10076,7 +10464,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 36px;
   margin-bottom: 25px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox__comment-form-title {
     font-size: 30px;
   }
@@ -10095,7 +10485,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 12px;
   display: block;
 }
-.postbox__comment-input input, .postbox__comment-input textarea {
+.postbox__comment-input input,
+.postbox__comment-input textarea {
   height: 55px;
   width: 100%;
   font-size: 14px;
@@ -10106,7 +10497,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 1px solid transparent;
   text-transform: capitalize;
 }
-.postbox__comment-input input:focus, .postbox__comment-input textarea:focus {
+.postbox__comment-input input:focus,
+.postbox__comment-input textarea:focus {
   border: 1px solid var(--tp-common-orange);
 }
 .postbox__comment-input textarea {
@@ -10121,7 +10513,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 800;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox__comment-title {
     font-size: 30px;
   }
@@ -10164,7 +10558,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 15px;
   padding-bottom: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .postbox__comment-text p {
     font-size: 15px;
   }
@@ -10172,7 +10567,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__comment-text p {
     font-size: 14px;
   }
@@ -10231,7 +10627,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox__comment-agree .form-check-input:focus {
   box-shadow: none;
 }
-.postbox__comment-agree .form-check-input.form-check-input[type=checkbox] {
+.postbox__comment-agree .form-check-input.form-check-input[type="checkbox"] {
   border-radius: 2px;
   margin-top: 4px;
 }
@@ -10257,7 +10653,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox__comment-agree-2 .form-check-input:focus {
   box-shadow: none;
 }
-.postbox__comment-agree-2 .form-check-input.form-check-input[type=checkbox] {
+.postbox__comment-agree-2 .form-check-input.form-check-input[type="checkbox"] {
   border-radius: 2px;
   margin-top: 4px;
 }
@@ -10286,7 +10682,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .postbox__wrapper-2 {
   margin-right: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox__wrapper-2 {
     margin-right: 0;
     margin-bottom: 40px;
@@ -10347,7 +10744,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .basic-pagination ul li:not(:last-child) {
   margin-right: 10px;
 }
-.basic-pagination ul li a, .basic-pagination ul li span {
+.basic-pagination ul li a,
+.basic-pagination ul li span {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -10356,28 +10754,32 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 12px;
   font-weight: 600;
   transition: 0.3s;
-  background: #EFF9F1;
+  background: #eff9f1;
   background-color: var(--tp-grey-1);
   border-radius: 50%;
   color: var(--tp-theme-1);
 }
 @media (max-width: 767px) {
-  .basic-pagination ul li a, .basic-pagination ul li span {
+  .basic-pagination ul li a,
+  .basic-pagination ul li span {
     width: 40px;
     height: 40px;
     line-height: 40px;
     font-size: 14px;
   }
 }
-.basic-pagination ul li a.current i, .basic-pagination ul li span.current i {
+.basic-pagination ul li a.current i,
+.basic-pagination ul li span.current i {
   display: inline-block;
   transform: translateY(2px);
 }
-.basic-pagination ul li a:hover, .basic-pagination ul li a.current {
+.basic-pagination ul li a:hover,
+.basic-pagination ul li a.current {
   background: var(--tp-theme-1);
   color: var(--tp-common-white);
 }
-.basic-pagination ul li span:hover, .basic-pagination ul li span.current {
+.basic-pagination ul li span:hover,
+.basic-pagination ul li span.current {
   background: var(--tp-theme-1);
   color: var(--tp-common-white);
 }
@@ -10389,7 +10791,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding: 50px;
   background: var(--tp-grey-1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sidebar__widget {
     padding: 50px 40px;
   }
@@ -10460,7 +10864,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .sidebar__content-designation {
   font-weight: 400;
   font-size: 14px;
-  color: #727A7D;
+  color: #727a7d;
   display: block;
   margin-bottom: 13px;
 }
@@ -10475,7 +10879,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   line-height: 37px;
   text-align: center;
   display: inline-block;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   margin-right: 12px;
 }
 .sidebar__content-social a i {
@@ -10552,7 +10956,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-right: 5px;
   box-shadow: 1px 1.732px 10px 0px rgba(23, 19, 4, 0.04);
   background-color: var(--tp-common-white);
-  border: 1px solid #F6F3EE;
+  border: 1px solid #f6f3ee;
   margin-bottom: 14px;
   display: inline-block;
   color: var(--tp-theme-1);
@@ -10589,7 +10993,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .rc__post-title {
     font-size: 14px;
   }
@@ -10726,7 +11132,10 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   left: -80px;
   bottom: 120px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-faq-2__bg-text {
     left: 0px;
     bottom: 0px;
@@ -10751,14 +11160,16 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   background-color: var(--tp-theme-1);
   line-height: 34px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-faq-2__bg-text span {
     font-size: 21px;
     padding: 25px 80px;
     line-height: 34px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-faq-2__bg-text span {
     font-size: 19px;
     padding: 18px 30px;
@@ -10887,7 +11298,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     margin-left: -40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-testimonial__wrapper {
     margin-left: 0;
   }
@@ -10941,12 +11354,15 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   transition: 0.3s;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-testimonial__text p {
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-testimonial__text p {
     font-size: 14px;
   }
@@ -11075,7 +11491,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-bottom: 50px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-testimonial-2__left-side {
     padding-bottom: 60px;
   }
@@ -11265,7 +11682,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-testimonial-3__top-text p {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-testimonial-3__top-text p {
     font-size: 14px;
   }
@@ -11320,7 +11739,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-testimonial-slider-dots .swiper-pagination-bullet-active {
   background-color: var(--tp-common-orange);
 }
-.tp-testimonial-slider-dots .swiper-pagination-bullet-active.swiper-pagination-bullet::after {
+.tp-testimonial-slider-dots
+  .swiper-pagination-bullet-active.swiper-pagination-bullet::after {
   opacity: 1;
   visibility: visible;
 }
@@ -11404,7 +11824,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 35px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-error__title {
     font-size: 32px;
   }
@@ -11425,7 +11846,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     width: 530px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-error__form-box {
     width: 430px;
   }
@@ -11476,7 +11898,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   display: inline-block;
   padding-bottom: 10px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-contact-form__left-box {
     padding-bottom: 50px;
   }
@@ -11485,7 +11908,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 45px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-contact-form__left-box p {
     font-size: 14px;
   }
@@ -11589,7 +12014,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-bottom: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-contact__bg {
     padding: 50px 25px;
     padding-bottom: 20px;
@@ -11789,7 +12215,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-product__thumb-text span {
     font-size: 14px;
   }
@@ -11829,7 +12256,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     font-size: 17px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-product__content-text h4 {
     font-size: 16px;
   }
@@ -11869,7 +12297,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   content: "\f107";
   font-family: "Font Awesome 5 Pro";
   transform-origin: center;
-  color: #77829D;
+  color: #77829d;
   height: auto;
   width: auto;
   font-size: 20px;
@@ -11882,7 +12310,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border-radius: 0;
 }
 .tp-product__filter .nice-select ul li {
-  color: #77829D;
+  color: #77829d;
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 16px;
@@ -11929,7 +12357,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__right-warp {
     padding-left: 0;
   }
@@ -11942,13 +12372,14 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
     margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__wrapper {
     margin-bottom: 70px;
   }
 }
 .tp-shop-details__tab-big-img img {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-shop-details__tab-big-img img {
@@ -11963,12 +12394,16 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-shop-details__tab-btn-box button:last-child {
   margin-right: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__tab-btn-box button {
     width: 30%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__tab-btn-box button img {
     width: 100%;
   }
@@ -12143,7 +12578,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-shop-details__text {
   margin-bottom: 35px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__text p {
     font-size: 15px;
   }
@@ -12205,7 +12642,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   padding-bottom: 50px;
   margin-bottom: 70px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-shop-details__text-box {
     margin-top: 80px;
   }
@@ -12220,7 +12658,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 25px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-shop-details__text-box p {
     font-size: 15px;
   }
@@ -12243,7 +12683,9 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   margin-bottom: 0;
   padding-bottom: 30px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-shop-details__title {
     font-size: 30px;
   }
@@ -12254,7 +12696,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .tp-shop-details__quantity-wrap {
     margin-bottom: 30px;
   }
@@ -12266,7 +12709,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .basic-pagination-2 ul li:not(:last-child) {
   margin-right: 8px;
 }
-.basic-pagination-2 ul li a, .basic-pagination-2 ul li span {
+.basic-pagination-2 ul li a,
+.basic-pagination-2 ul li span {
   display: inline-block;
   padding: 0 14px;
   height: 36px;
@@ -12277,15 +12721,18 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   border: 1px solid #e6e9e9;
   color: var(--tp-theme-1);
 }
-.basic-pagination-2 ul li a.current i, .basic-pagination-2 ul li span.current i {
+.basic-pagination-2 ul li a.current i,
+.basic-pagination-2 ul li span.current i {
   display: inline-block;
   transform: translateY(2px);
 }
-.basic-pagination-2 ul li a:hover, .basic-pagination-2 ul li a.current {
+.basic-pagination-2 ul li a:hover,
+.basic-pagination-2 ul li a.current {
   background: var(--tp-theme-2);
   color: var(--tp-common-white);
 }
-.basic-pagination-2 ul li span:hover, .basic-pagination-2 ul li span.current {
+.basic-pagination-2 ul li span:hover,
+.basic-pagination-2 ul li span.current {
   background: var(--tp-theme-2);
   color: var(--tp-common-white);
 }
@@ -12336,7 +12783,8 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 16px;
 }
 
-.table-content table th, .table-content table td {
+.table-content table th,
+.table-content table td {
   border-bottom: 1px solid rgba(6, 7, 40, 0.1);
   border-right: 1px solid rgba(6, 7, 40, 0.1);
 }
@@ -12358,7 +12806,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-size: 15px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  border: 1px solid #E0E2E3;
+  border: 1px solid #e0e2e3;
   margin-right: 10px;
 }
 
@@ -12387,11 +12835,17 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   cursor: pointer;
 }
 
-.table td, .table th {
+.table td,
+.table th {
   border-top: 1px solid #eaedff;
 }
 
-.product-thumbnail, .cart-product-name, .product-price, .product-quantity, .product-subtotal, .product-remove {
+.product-thumbnail,
+.cart-product-name,
+.product-price,
+.product-quantity,
+.product-subtotal,
+.product-remove {
   font-weight: 600;
   font-size: 20px;
   color: #060728;
@@ -12492,7 +12946,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
-  color: #696A7E;
+  color: #696a7e;
 }
 
 .cart-page-total ul > li > span {
@@ -12536,7 +12990,8 @@ td.product-thumbnail img {
   font-weight: 500;
 }
 
-.coupon-accordion span:hover, p.lost-password a:hover {
+.coupon-accordion span:hover,
+p.lost-password a:hover {
   color: var(--tp-common-black);
 }
 
@@ -12555,17 +13010,20 @@ td.product-thumbnail img {
   margin-bottom: 0;
 }
 
-.coupon-info p.form-row-first label, .coupon-info p.form-row-last label {
+.coupon-info p.form-row-first label,
+.coupon-info p.form-row-last label {
   display: block;
   color: #6f7172;
 }
 
-.coupon-info p.form-row-first label span.required, .coupon-info p.form-row-last label span.required {
+.coupon-info p.form-row-first label span.required,
+.coupon-info p.form-row-last label span.required {
   color: var(--tp-theme-1);
   font-weight: 700;
 }
 
-.coupon-info p.form-row-first input, .coupon-info p.form-row-last input {
+.coupon-info p.form-row-first input,
+.coupon-info p.form-row-last input {
   border: 1px solid #eaedff;
   height: 45px;
   margin: 0 0 14px;
@@ -12574,15 +13032,17 @@ td.product-thumbnail img {
   width: 100%;
   outline: none;
 }
-.coupon-info p.form-row-first input:focus, .coupon-info p.form-row-last input:focus {
+.coupon-info p.form-row-first input:focus,
+.coupon-info p.form-row-last input:focus {
   border-color: var(--tp-common-black);
 }
 
-.coupon-info p.form-row input[type=submit]:hover, p.checkout-coupon input[type=submit]:hover {
+.coupon-info p.form-row input[type="submit"]:hover,
+p.checkout-coupon input[type="submit"]:hover {
   background: #3e976c none repeat scroll 0 0;
 }
 
-.coupon-info p.form-row input[type=checkbox] {
+.coupon-info p.form-row input[type="checkbox"] {
   position: relative;
   top: -1px;
 }
@@ -12593,7 +13053,10 @@ td.product-thumbnail img {
   color: #6f7172;
 }
 
-.buttons-cart input, .coupon input[type=submit], .buttons-cart a, .coupon-info p.form-row input[type=submit] {
+.buttons-cart input,
+.coupon input[type="submit"],
+.buttons-cart a,
+.coupon-info p.form-row input[type="submit"] {
   background: #252525 none repeat scroll 0 0;
   border: medium none;
   color: #fff;
@@ -12617,7 +13080,7 @@ p.lost-password a {
   color: #6f6f6f;
 }
 
-p.checkout-coupon input[type=text] {
+p.checkout-coupon input[type="text"] {
   height: 45px;
   padding: 0 15px;
   width: 100%;
@@ -12625,7 +13088,7 @@ p.checkout-coupon input[type=text] {
   margin-bottom: 15px;
   outline: none;
 }
-p.checkout-coupon input[type=text]:focus {
+p.checkout-coupon input[type="text"]:focus {
   border-color: var(--tp-common-black);
 }
 
@@ -12654,13 +13117,15 @@ p.checkout-coupon input[type=text]:focus {
   height: 50px;
 }
 
-.country-select label, .checkout-form-list label {
+.country-select label,
+.checkout-form-list label {
   color: #6f7172;
   display: block;
   margin: 0 0 5px;
 }
 
-.country-select label span.required, .checkout-form-list label span.required {
+.country-select label span.required,
+.checkout-form-list label span.required {
   color: var(--tp-theme-1);
 }
 
@@ -12685,7 +13150,9 @@ p.checkout-coupon input[type=text]:focus {
   color: #6f7172;
 }
 
-.checkout-form-list input[type=text], .checkout-form-list input[type=password], .checkout-form-list input[type=email] {
+.checkout-form-list input[type="text"],
+.checkout-form-list input[type="password"],
+.checkout-form-list input[type="email"] {
   background: #ffffff;
   border: 1px solid #eaedff;
   border-radius: 0;
@@ -12694,25 +13161,27 @@ p.checkout-coupon input[type=text]:focus {
   width: 100%;
   outline: none;
 }
-.checkout-form-list input[type=text]:focus, .checkout-form-list input[type=password]:focus, .checkout-form-list input[type=email]:focus {
+.checkout-form-list input[type="text"]:focus,
+.checkout-form-list input[type="password"]:focus,
+.checkout-form-list input[type="email"]:focus {
   border-color: var(--tp-common-black);
 }
 
-.checkout-form-list input[type=text]::-moz-placeholder,
-.checkout-form-list input[type=password]::-moz-placeholder,
-.checkout-form-list input[type=email]::-moz-placeholder {
+.checkout-form-list input[type="text"]::-moz-placeholder,
+.checkout-form-list input[type="password"]::-moz-placeholder,
+.checkout-form-list input[type="email"]::-moz-placeholder {
   color: #6f7172;
   opacity: 1;
 }
 
-.checkout-form-list input[type=text]::placeholder,
-.checkout-form-list input[type=password]::placeholder,
-.checkout-form-list input[type=email]::placeholder {
+.checkout-form-list input[type="text"]::placeholder,
+.checkout-form-list input[type="password"]::placeholder,
+.checkout-form-list input[type="email"]::placeholder {
   color: #6f7172;
   opacity: 1;
 }
 
-.checkout-form-list input[type=checkbox] {
+.checkout-form-list input[type="checkbox"] {
   display: inline-block;
   margin-right: 10px;
   position: relative;
@@ -12793,7 +13262,8 @@ p.checkout-coupon input[type=text]:focus {
   width: 100%;
 }
 
-.your-order-table table th, .your-order-table table td {
+.your-order-table table th,
+.your-order-table table td {
   border-bottom: 1px solid #eaedff;
   border-right: medium none;
   color: #6f7172;
@@ -12803,7 +13273,8 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 @media (max-width: 767px) {
-  .your-order-table table th, .your-order-table table td {
+  .your-order-table table th,
+  .your-order-table table td {
     padding-right: 10px;
   }
 }
@@ -12848,7 +13319,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 .your-order-table table tr.cart_item:hover {
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .your-order-table table tr.order-total td span {
@@ -12991,7 +13462,7 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--tp-common-black);
   margin-bottom: 0;
   display: inline-block;
-  border: 1px dashed #AAB0B2;
+  border: 1px dashed #aab0b2;
   padding: 18px 40px;
   width: 100%;
 }
@@ -13035,14 +13506,16 @@ p.checkout-coupon input[type=text]:focus {
 .tp-checkout-input label span {
   color: red;
 }
-.tp-checkout-input input, .tp-checkout-input textarea {
+.tp-checkout-input input,
+.tp-checkout-input textarea {
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   color: var(--tp-common-black);
   height: 64px;
-  border: 1px solid #E0E2E3;
+  border: 1px solid #e0e2e3;
 }
-.tp-checkout-input input:focus, .tp-checkout-input textarea:focus {
+.tp-checkout-input input:focus,
+.tp-checkout-input textarea:focus {
   border-color: var(--tp-common-orange);
 }
 .tp-checkout-input textarea {
@@ -13111,7 +13584,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-checkout-option label {
   font-size: 15px;
-  color: #55585B;
+  color: #55585b;
   position: relative;
   padding-left: 26px;
   z-index: 1;
@@ -13175,7 +13648,9 @@ p.checkout-coupon input[type=text]:focus {
     padding: 35px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 767px) {
   .tp-checkout-place {
     margin-top: 50px;
   }
@@ -13188,7 +13663,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-checkout-payment {
   padding-bottom: 26px;
   margin-bottom: 24px;
-  border-bottom: 1px solid #E0E2E3;
+  border-bottom: 1px solid #e0e2e3;
 }
 .tp-checkout-payment-item:not(:last-child) {
   margin-bottom: 10px;
@@ -13280,7 +13755,7 @@ p.checkout-coupon input[type=text]:focus {
   margin-left: 27px;
   font-size: 14px;
   line-height: 1.57;
-  color: #55585B;
+  color: #55585b;
   margin-bottom: 0;
 }
 .tp-checkout-agree {
@@ -13329,7 +13804,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-return-customer-remeber label {
   font-size: 15px;
-  color: #55585B;
+  color: #55585b;
   position: relative;
   padding-left: 26px;
   z-index: 1;
@@ -13440,11 +13915,17 @@ p.checkout-coupon input[type=text]:focus {
 .tp-order-details-item {
   margin-bottom: 38px;
 }
-.tp-order-details-item-wrapper .row [class*=col-]:nth-child(2n) .tp-order-details-item {
+.tp-order-details-item-wrapper
+  .row
+  [class*="col-"]:nth-child(2n)
+  .tp-order-details-item {
   padding-left: 40px;
 }
 @media (max-width: 767px) {
-  .tp-order-details-item-wrapper .row [class*=col-]:nth-child(2n) .tp-order-details-item {
+  .tp-order-details-item-wrapper
+    .row
+    [class*="col-"]:nth-child(2n)
+    .tp-order-details-item {
     padding-left: 0;
   }
 }
@@ -13490,7 +13971,7 @@ p.checkout-coupon input[type=text]:focus {
   justify-content: space-between;
 }
 .tp-order-info-list ul li:not(:last-child) {
-  border-bottom: 1px solid #E0E2E3;
+  border-bottom: 1px solid #e0e2e3;
 }
 .tp-order-info-list ul li span {
   font-size: 15px;
@@ -13519,7 +14000,12 @@ p.checkout-coupon input[type=text]:focus {
 .tp-order-info-list ul li.tp-order-info-list-shipping span input {
   display: none;
 }
-.tp-order-info-list ul li.tp-order-info-list-shipping span input:checked ~ label::before {
+.tp-order-info-list
+  ul
+  li.tp-order-info-list-shipping
+  span
+  input:checked
+  ~ label::before {
   opacity: 1;
   visibility: visible;
 }
@@ -13595,7 +14081,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-login-top p {
   font-weight: 400;
   font-size: 16px;
-  color: #49535B;
+  color: #49535b;
 }
 .tp-login-top p a {
   color: var(--tp-theme-1);
@@ -13636,7 +14122,7 @@ p.checkout-coupon input[type=text]:focus {
   height: 56px;
   line-height: 54px;
   text-align: center;
-  border: 1px solid #E0E2E3;
+  border: 1px solid #e0e2e3;
   font-size: 16px;
   color: #041226;
 }
@@ -13663,7 +14149,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-login-mail p {
   font-size: 15px;
-  color: #55585B;
+  color: #55585b;
   margin-bottom: 0;
   padding: 0 20px;
   position: relative;
@@ -13681,7 +14167,7 @@ p.checkout-coupon input[type=text]:focus {
   bottom: 12px;
   width: 100%;
   height: 1px;
-  background-color: #E0E2E3;
+  background-color: #e0e2e3;
   transition: 0.3s;
   z-index: -1;
 }
@@ -13696,7 +14182,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-login-input input {
   height: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid transparent;
   font-size: 14px;
   transition: 0.3s;
@@ -13704,16 +14190,16 @@ p.checkout-coupon input[type=text]:focus {
   text-transform: capitalize;
 }
 .tp-login-input input::-webkit-input-placeholder {
-  color: #95999D;
+  color: #95999d;
 }
 .tp-login-input input:-moz-placeholder {
-  color: #95999D;
+  color: #95999d;
 }
 .tp-login-input input::-moz-placeholder {
-  color: #95999D;
+  color: #95999d;
 }
 .tp-login-input input:-ms-input-placeholder {
-  color: #95999D;
+  color: #95999d;
 }
 .tp-login-input input:focus {
   border: 1px solid var(--tp-common-orange);
@@ -13753,7 +14239,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-login-remeber label {
   font-size: 15px;
-  color: #55585B;
+  color: #55585b;
   position: relative;
   padding-left: 26px;
   z-index: 1;
@@ -13767,7 +14253,7 @@ p.checkout-coupon input[type=text]:focus {
   height: 18px;
   line-height: 16px;
   text-align: center;
-  border: 1px solid #C3C7C9;
+  border: 1px solid #c3c7c9;
   z-index: -1;
   transition: 0.3s;
 }
@@ -13853,6 +14339,9 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-footer__logo {
   padding-bottom: 22px;
+}
+.tp-footer__logo a img {
+  width: 250px;
 }
 .tp-footer__text p {
   line-height: 30px;
@@ -13997,7 +14486,8 @@ p.checkout-coupon input[type=text]:focus {
   line-height: 34px;
   padding-bottom: 15px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-footer__donate-title-sm {
     font-size: 19px;
   }
@@ -14024,7 +14514,8 @@ p.checkout-coupon input[type=text]:focus {
 .footer-col-3 {
   padding-left: 9px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .footer-col-3 {
     padding-left: 0;
   }
@@ -14033,7 +14524,8 @@ p.checkout-coupon input[type=text]:focus {
 .footer-col-4 {
   padding-left: 35px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .footer-col-4 {
     padding-left: 0;
   }
@@ -14042,7 +14534,9 @@ p.checkout-coupon input[type=text]:focus {
 .footer-2-col-2 {
   margin-left: -30px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .footer-2-col-2 {
     margin-left: 0;
   }
@@ -14051,7 +14545,9 @@ p.checkout-coupon input[type=text]:focus {
 .footer-2-col-3 {
   margin-left: -35px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .footer-2-col-3 {
     margin-left: 0;
   }
@@ -14066,7 +14562,9 @@ p.checkout-coupon input[type=text]:focus {
   display: inline-block;
   color: var(--tp-grey-2);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-copyright__text span {
     font-size: 14px;
   }
