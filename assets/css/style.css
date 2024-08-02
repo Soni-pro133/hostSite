@@ -9357,6 +9357,43 @@ input[type="url"] {
 .tp-team-2__content {
   padding: 25px;
 }
+.tp-team-2__thumb {
+  padding: 20px;
+}
+.tp-team-2__mission {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+.custom-card {
+  position: relative;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+  height: 400px;
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.icon-image {
+  width: 40px;
+  height: 40px;
+}
+.card-title {
+  margin: 60px 0 10px 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.card-content {
+  margin: 0;
+  font-size: 1rem;
+}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-team-2__content {
     padding: 25px 15px;
