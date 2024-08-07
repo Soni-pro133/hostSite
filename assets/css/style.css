@@ -14675,4 +14675,44 @@ p.checkout-coupon input[type="text"]:focus {
   transform: scaleY(1);
 }
 
+.custom-col {
+  flex: 0 0 20%; /* Each column will take 20% of the row */
+  max-width: 20%;
+}
+.tp-product-details-area {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.tp-shop-details__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tp-shop-details__text-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footers {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.footers img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.footers .footers-content {
+  display: flex;
+  flex-direction: column;
+}
+.footers .footers-content .name {
+  font-weight: bold;
+  color: #07847f;
+}
+.footers .footers-content .position {
+  font-size: 0.9em;
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
