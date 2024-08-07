@@ -14675,6 +14675,10 @@ p.checkout-coupon input[type="text"]:focus {
   transform: scaleY(1);
 }
 
+.custom-col-health {
+  flex: 0 0 25%; /* Each column will take 20% of the row */
+  max-width: 25%;
+}
 .custom-col {
   flex: 0 0 20%; /* Each column will take 20% of the row */
   max-width: 20%;
