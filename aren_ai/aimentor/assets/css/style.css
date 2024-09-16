@@ -108,7 +108,7 @@ body{
     width: 1298px;
     height: 1034px;
     position: absolute;
-    background: url(../images/banner-img.jpg) no-repeat;
+    background: url(../images/banner-img2.jpg) no-repeat;
     background-size: cover;
 }
 .banner-sec h1 span{
@@ -1329,7 +1329,7 @@ body{
   .index2-banner-sec{
     padding-top: 302px;
     padding-bottom: 310px;
-    background: url(../images/index2-banner-img.jpg) no-repeat center;
+    background: url(../images/index2-banner-img2.jpg) no-repeat center;
     background-size: cover;
   }
   .index2-banner-sec .banner-left-sec {
